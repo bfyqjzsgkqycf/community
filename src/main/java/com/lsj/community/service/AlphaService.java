@@ -1,10 +1,11 @@
 package com.lsj.community.service;
 
-import com.lsj.community.dao.AlphaDao;
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
+import com.nowcoder.community.dao.AlphaDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Service
 //@Scope("prototype")
