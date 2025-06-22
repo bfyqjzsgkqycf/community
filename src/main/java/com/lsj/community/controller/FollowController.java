@@ -1,6 +1,5 @@
 package com.lsj.community.controller;
 
-
 import com.lsj.community.entity.Event;
 import com.lsj.community.entity.Page;
 import com.lsj.community.entity.User;

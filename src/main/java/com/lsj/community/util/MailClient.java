@@ -8,6 +8,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 
+import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 @Component
@@ -30,7 +31,7 @@ public class MailClient {
             helper.setSubject(subject);
             helper.setText(content, true);
             mailSender.send(helper.getMimeMessage());
-        } catch (Exception e) {
+        } catch (MessagingException e) {
             logger.error("发送邮件失败:" + e.getMessage());
         }
     }
