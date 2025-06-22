@@ -11,7 +11,6 @@ public class AlphaConfig {
     @Bean
     public SimpleDateFormat simpleDateFormat() {
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        
     }
 
 }
