@@ -1,13 +1,13 @@
 package com.lsj.community.controller;
 
-import com.nowcoder.community.annotation.LoginRequired;
-import com.nowcoder.community.entity.User;
-import com.nowcoder.community.service.FollowService;
-import com.nowcoder.community.service.LikeService;
-import com.nowcoder.community.service.UserService;
-import com.nowcoder.community.util.CommunityConstant;
-import com.nowcoder.community.util.CommunityUtil;
-import com.nowcoder.community.util.HostHolder;
+import com.lsj.community.annotation.LoginRequired;
+import com.lsj.community.entity.User;
+import com.lsj.community.service.FollowService;
+import com.lsj.community.service.LikeService;
+import com.lsj.community.service.UserService;
+import com.lsj.community.util.CommunityConstant;
+import com.lsj.community.util.CommunityUtil;
+import com.lsj.community.util.HostHolder;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

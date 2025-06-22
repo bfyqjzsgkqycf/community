@@ -1,8 +1,8 @@
 package com.lsj.community.controller.interceptor;
 
-import com.nowcoder.community.entity.User;
-import com.nowcoder.community.service.MessageService;
-import com.nowcoder.community.util.HostHolder;
+import com.lsj.community.entity.User;
+import com.lsj.community.service.MessageService;
+import com.lsj.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

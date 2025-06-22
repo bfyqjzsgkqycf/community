@@ -1,6 +1,6 @@
 package com.lsj.community.controller.advice;
 
-import com.nowcoder.community.util.CommunityUtil;
+import com.lsj.community.util.CommunityUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

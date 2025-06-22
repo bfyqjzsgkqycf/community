@@ -1,6 +1,6 @@
 package com.lsj.community.dao.elasticsearch;
 
-import com.nowcoder.community.entity.DiscussPost;
+import com.lsj.community.entity.DiscussPost;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 

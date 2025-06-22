@@ -1,7 +1,7 @@
 package com.lsj.community.controller;
 
-import com.nowcoder.community.service.AlphaService;
-import com.nowcoder.community.util.CommunityUtil;
+import com.lsj.community.service.AlphaService;
+import com.lsj.community.util.CommunityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

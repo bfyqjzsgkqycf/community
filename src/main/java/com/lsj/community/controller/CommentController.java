@@ -1,13 +1,13 @@
 package com.lsj.community.controller;
 
-import com.nowcoder.community.entity.Comment;
-import com.nowcoder.community.entity.DiscussPost;
-import com.nowcoder.community.entity.Event;
-import com.nowcoder.community.event.EventProducer;
-import com.nowcoder.community.service.CommentService;
-import com.nowcoder.community.service.DiscussPostService;
-import com.nowcoder.community.util.CommunityConstant;
-import com.nowcoder.community.util.HostHolder;
+import com.lsj.community.entity.Comment;
+import com.lsj.community.entity.DiscussPost;
+import com.lsj.community.entity.Event;
+import com.lsj.community.event.EventProducer;
+import com.lsj.community.service.CommentService;
+import com.lsj.community.service.DiscussPostService;
+import com.lsj.community.util.CommunityConstant;
+import com.lsj.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

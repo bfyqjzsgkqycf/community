@@ -1,7 +1,7 @@
 package com.lsj.community.service;
 
-import com.nowcoder.community.dao.elasticsearch.DiscussPostRepository;
-import com.nowcoder.community.entity.DiscussPost;
+import com.lsj.community.dao.elasticsearch.DiscussPostRepository;
+import com.lsj.community.entity.DiscussPost;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;

@@ -1,11 +1,11 @@
 package com.lsj.community.service;
 
-import com.nowcoder.community.dao.AlphaDao;
-import com.nowcoder.community.dao.DiscussPostMapper;
-import com.nowcoder.community.dao.UserMapper;
-import com.nowcoder.community.entity.DiscussPost;
-import com.nowcoder.community.entity.User;
-import com.nowcoder.community.util.CommunityUtil;
+import com.lsj.community.dao.AlphaDao;
+import com.lsj.community.dao.DiscussPostMapper;
+import com.lsj.community.dao.UserMapper;
+import com.lsj.community.entity.DiscussPost;
+import com.lsj.community.entity.User;
+import com.lsj.community.util.CommunityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionDefinition;

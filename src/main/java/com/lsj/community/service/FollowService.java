@@ -1,8 +1,8 @@
 package com.lsj.community.service;
 
-import com.nowcoder.community.entity.User;
-import com.nowcoder.community.util.CommunityConstant;
-import com.nowcoder.community.util.RedisKeyUtil;
+import com.lsj.community.entity.User;
+import com.lsj.community.util.CommunityConstant;
+import com.lsj.community.util.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;

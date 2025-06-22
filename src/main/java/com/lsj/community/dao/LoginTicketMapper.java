@@ -1,6 +1,6 @@
 package com.lsj.community.dao;
 
-import com.nowcoder.community.entity.LoginTicket;
+import com.lsj.community.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 @Mapper

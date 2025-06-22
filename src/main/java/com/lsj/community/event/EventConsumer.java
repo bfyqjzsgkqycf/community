@@ -1,13 +1,13 @@
 package com.lsj.community.event;
 
 import com.alibaba.fastjson.JSONObject;
-import com.nowcoder.community.entity.DiscussPost;
-import com.nowcoder.community.entity.Event;
-import com.nowcoder.community.entity.Message;
-import com.nowcoder.community.service.DiscussPostService;
-import com.nowcoder.community.service.ElasticsearchService;
-import com.nowcoder.community.service.MessageService;
-import com.nowcoder.community.util.CommunityConstant;
+import com.lsj.community.entity.DiscussPost;
+import com.lsj.community.entity.Event;
+import com.lsj.community.entity.Message;
+import com.lsj.community.service.DiscussPostService;
+import com.lsj.community.service.ElasticsearchService;
+import com.lsj.community.service.MessageService;
+import com.lsj.community.util.CommunityConstant;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

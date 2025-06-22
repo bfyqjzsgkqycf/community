@@ -1,9 +1,9 @@
 package com.lsj.community.service;
 
-import com.nowcoder.community.dao.CommentMapper;
-import com.nowcoder.community.entity.Comment;
-import com.nowcoder.community.util.CommunityConstant;
-import com.nowcoder.community.util.SensitiveFilter;
+import com.lsj.community.dao.CommentMapper;
+import com.lsj.community.entity.Comment;
+import com.lsj.community.util.CommunityConstant;
+import com.lsj.community.util.SensitiveFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;

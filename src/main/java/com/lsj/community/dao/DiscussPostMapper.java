@@ -1,6 +1,6 @@
 package com.lsj.community.dao;
 
-import com.nowcoder.community.entity.DiscussPost;
+import com.lsj.community.entity.DiscussPost;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,6 +1,6 @@
 package com.lsj.community.util;
 
-import com.nowcoder.community.entity.User;
+import com.lsj.community.entity.User;
 import org.springframework.stereotype.Component;
 
 /**

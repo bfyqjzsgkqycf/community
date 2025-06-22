@@ -1,8 +1,8 @@
 package com.lsj.community.service;
 
-import com.nowcoder.community.dao.MessageMapper;
-import com.nowcoder.community.entity.Message;
-import com.nowcoder.community.util.SensitiveFilter;
+import com.lsj.community.dao.MessageMapper;
+import com.lsj.community.entity.Message;
+import com.lsj.community.util.SensitiveFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.util.HtmlUtils;

@@ -1,6 +1,6 @@
 package com.lsj.community.dao;
 
-import com.nowcoder.community.entity.Comment;
+import com.lsj.community.entity.Comment;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

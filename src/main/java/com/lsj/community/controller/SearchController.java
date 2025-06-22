@@ -1,11 +1,11 @@
 package com.lsj.community.controller;
 
-import com.nowcoder.community.entity.DiscussPost;
-import com.nowcoder.community.entity.Page;
-import com.nowcoder.community.service.ElasticsearchService;
-import com.nowcoder.community.service.LikeService;
-import com.nowcoder.community.service.UserService;
-import com.nowcoder.community.util.CommunityConstant;
+import com.lsj.community.entity.DiscussPost;
+import com.lsj.community.entity.Page;
+import com.lsj.community.service.ElasticsearchService;
+import com.lsj.community.service.LikeService;
+import com.lsj.community.service.UserService;
+import com.lsj.community.util.CommunityConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
